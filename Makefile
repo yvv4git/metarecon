@@ -8,3 +8,6 @@ dc_run:
 
 proxy:
 	docker run -it -p 8118:8118 -p 9050:9050 -d dperson/torproxy
+
+ip_check:
+	proxychains curl http://ipecho.net/plain
